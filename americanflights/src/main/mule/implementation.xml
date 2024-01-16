@@ -44,5 +44,6 @@ payload map ( payload01 , indexOfPayload01 ) -> {
 </flow>
 	<flow name="americanflightsFlow" doc:id="19430383-28af-4dcd-9f8a-1a7a7acaa23b" >
 		<set-payload value='{"message": "Flight added (but not really)"}' doc:name="Set Payload" doc:id="cafaf6bb-8805-4da5-841d-939910eb49bf" />
+		<set-payload value='{"message": "Flight not added (but not really)"}' doc:name="Set Payload" doc:id="cafaf6bb-8805-4da5-841d-939910eb49bf" />	
 	</flow>
 </mule>
